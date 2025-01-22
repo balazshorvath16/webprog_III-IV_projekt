@@ -117,10 +117,10 @@ A backend API-k tesztelését Postman-ben végeztük, a következő módon:
   [
     {
       "id": 1,
-      "title": "Chess",
+      "title": "Rettegés Arkhamban",
       "price": 5000,
       "stock": 10,
-      "description": "Classic game."
+      "description": "1926-ot írunk, a viharos huszas évek derekán járunk. Csinos hölgyek táncolnak virradatig a füsttel teli, alkoholtól fűtött hangulatú helyiségekben. Mindeközben különös lények törnek be a világok közötti kapun, hogy átvegyék az uralmat felettünk. Te meg tudod állítani őket?"
     }
   ]
   ```
