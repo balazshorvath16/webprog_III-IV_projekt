@@ -1,0 +1,8 @@
+  <h2>Regisztráció</h2>
+  <form (submit)="register()">
+    <input type="text" placeholder="Név" [(ngModel)]="user.name" name="name" required>
+    <input type="email" placeholder="Email" [(ngModel)]="user.email" name="email" required>
+    <input type="password" placeholder="Jelszó" [(ngModel)]="user.password" name="password" required>
+    <input type="password" placeholder="Jelszó újra" [(ngModel)]="user.password_confirmation" name="password_confirmation" required>
+    <button type="submit">Regisztráció</button>
+  </form>

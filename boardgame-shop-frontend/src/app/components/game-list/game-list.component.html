@@ -1,0 +1,15 @@
+<h2>Játéklista</h2>
+
+<div *ngIf="loading">Betöltés...</div>
+<div *ngIf="errorMessage">{{ errorMessage }}</div>
+
+<ul *ngIf="games.length > 0">
+  <li *ngFor="let g of games">
+    <strong>{{ g.title }}</strong>  
+    ({{ g.price }} Ft, {{ g.stock }} db raktáron)
+    <p>{{ g.description }}</p>
+  </li>
+</ul>
+<div *ngIf="!loading && games.length === 0 && !errorMessage">
+  Jelenleg nincs játék a rendszerben.
+</div>
