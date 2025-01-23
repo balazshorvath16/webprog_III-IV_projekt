@@ -50,7 +50,7 @@ A projekt egy társasjáték webshop készítése, amely lehetőséget biztosít
   - Az Angular az adatokat a Laravel REST API-ján keresztül szerzi be.
   - Az autentikációhoz használt tokeneket a helyi tárban („localStorage”) tároljuk.
 
-- **Tipikus API Hívás**:
+- **API Hívás**:
   1. Felhasználó bejelentkezik (átadja az email-címet és a jelszót).
   2. Backend visszaad egy Bearer tokent.
   3. Az Angular minden játék lekérdezésnél (és más API hívásoknál) csatolja ezt a tokent.
